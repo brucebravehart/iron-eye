@@ -5,15 +5,8 @@ edition = "2021"
 description = "Rust execution engine for automated broker order routing"
 
 [dependencies]
-anyhow = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 dotenvy = "0.15"
-bincode = "=2.0.0-rc.3"
 
-# Burn runtime + ndarray backend for local inference.
-burn = { version = "0.15", default-features = false, features = ["std", "ndarray"] }
 
-[build-dependencies]
-# Converts ONNX to Burn Rust code during build.
-burn-import = { version = "0.15", default-features = false, features = ["onnx"] }
