@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "AAPL",
+    "side": "buy",
+    "quantity": 10,
+    "limit_price": 185.0
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "quantity": 5,
+    "limit_price": null
+  }
+]

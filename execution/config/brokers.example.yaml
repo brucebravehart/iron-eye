@@ -1,0 +1,10 @@
+brokers:
+  paper:
+    base_url: "https://paper-broker.example.com"
+    timeout_seconds: 10
+  broker_a:
+    base_url: "https://api.broker-a.example.com"
+    timeout_seconds: 10
+  broker_b:
+    base_url: "https://api.broker-b.example.com"
+    timeout_seconds: 10
