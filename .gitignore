@@ -40,3 +40,5 @@ execution/logs/*
 Thumbs.db
 .vscode/
 .idea/
+
+secrets.env
